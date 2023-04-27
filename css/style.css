@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+main{
+    background-image: url(../img/agent-background-generic.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.valorant-icon img{
+    width: 350px;
+    height: 250px;
+}
+
+.menu-container{
+    height: 100%;
+    background-color: #D82020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Stencil Std, fantasy;
+    gap: 150px;
+    text-transform: capitalize;
+}
+
+.fundo img{
+    height: 100%;
+    width: 100%;
+}
+
+#root{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.container-home{
+    background-color: blue;
+}
+
+.container-agentes img{
+    width: 100%;
+    height: 100%;
+}
