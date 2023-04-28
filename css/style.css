@@ -6,6 +6,7 @@
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 ul,
@@ -14,24 +15,24 @@ li {
     list-style: none;
 }
 
-body{
+body {
     height: 100vh;
     display: grid;
     grid-template-rows: 100px 1fr;
 }
 
-main{
+main {
     background-image: url(../img/agent-background-generic.JPG);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.valorant-icon img{
+.valorant-icon img {
     width: 350px;
     height: 250px;
 }
 
-.menu-container{
+.menu-container {
     height: 100%;
     background-color: #D82020;
     display: flex;
@@ -43,26 +44,101 @@ main{
     text-transform: capitalize;
 }
 
-.fundo img{
+.fundo img {
     height: 100%;
     width: 100%;
 }
 
-#root{
+#root {
     height: 100%;
 }
 
-.container{
+.container {
     width: 100%;
     height: 100%;
     color: #fff;
 }
 
-.container-home{
+.container-home {
     background-color: blue;
 }
 
-.container-agentes img{
+.container-agentes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-agentes img {
     width: 100%;
     height: 100%;
+}
+
+.agentes-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-agentes ul {
+    padding-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    font-size: 2rem;
+    font-family: Stencil Std, fantasy;
+}
+
+.list-agentes a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-agente img {
+    width: 100%;
+    height: 60%;
+}
+
+.container-funcao-biografia {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 7%;
+}
+
+.funcao span {
+    font-family: Stencil Std, fantasy;
+    font-size: 1.5rem;
+}
+
+.biografia span {
+    font-family: Stencil Std, fantasy;
+    font-size: 1.3rem;
+}
+
+span {
+    font-size: x-large;
+}
+
+img {
+    box-shadow: 0 1px 2px #0003;
+    width: 80%;
+}
+
+.swiper {
+    height: 500px;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 450px) {
+    .swiper {
+        height: 270px;
+    }
 }
