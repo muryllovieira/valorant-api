@@ -11,7 +11,15 @@ const createAgentes = (agente) => {
 
     const a = document.createElement('a')
 
+    const span = document.createElement('span')
+
+    const imgAgente = document.createElement('div')
+    imgAgente.classList.add('img-agente')
+
     const img = document.createElement('img')
+
+    const containerFuncaoBiografia = document.createElement('div')
+    containerFuncaoBiografia.classList.add('container-funcao-biografia')
 
     const funcaoAgente = document.createElement('div')
     funcaoAgente.classList.add('funcao-agente')
@@ -36,6 +44,12 @@ const createAgentes = (agente) => {
 
 
 
-    listAgentes.append(ul, li, a)
+    listAgentes.append(ul)
+    ul.append(li)
+    li.append(a)
+    a.append(span)
 
+    imgAgente.append(img)
+
+    containerFuncaoBiografia.append(funcaoAgente, biografiaAgente)
 }
