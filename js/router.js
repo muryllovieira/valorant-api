@@ -1,8 +1,13 @@
 'use strict'
 
+import {loadContainer} from './agentes.js'
+
 const routes = {
     '/' : '/pages/home.html',
-    '/agentes' : '/pages/agentes.html',
+    '/agentes' : {
+        html: '/pages/agentes.html',
+        js: loadContainer
+    },
     '/armas' : '/pages/armas.html',
     '/mapas' : '/pages/mapas.html',
 }
@@ -17,11 +22,14 @@ const route = async () => {
     //Pega a url do que clicamos, exmeplo: /vermlho, /azul
     const path = window.location.pathname
 
-    const response = await fetch(routes[path])
+    const response = await fetch(routes[path].html)
 
     const html = await response.text()
 
     document.getElementById('root').innerHTML = html
+
+    routes[path].js()
+
 }
 
 window.route = route

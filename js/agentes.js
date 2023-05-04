@@ -3,7 +3,7 @@
 import { showAgentes } from "../js/homeAPI.js"
 const agente = await showAgentes()
 
-console.log(agente);
+console.log(agente);    
 
 const createAgentes = (agente1) => {
 
@@ -29,13 +29,16 @@ const createAgentes = (agente1) => {
     return containerCard
 }
 
-const loadContainer = () => {
+export const loadContainer = () => {
+
     const container = document.getElementById('container')
     const containerCardAPI = agente.map(createAgentes)
     
     container.replaceChildren(...containerCardAPI)
 }
 
-loadContainer()
+// loadContainer()
+
+// window.loadContainer = loadContainer
 
 
