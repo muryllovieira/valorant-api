@@ -3,10 +3,12 @@
 import { showAgentes } from "../js/homeAPI.js"
 const agente = await showAgentes()
 
-console.log(agente);    
+console.log(agente);  
+
 
 const createAgentes = (agente1) => {
 
+    
     //const container = document.getElementById('container-agentes')
 
     const containerCard = document.createElement('div')
@@ -23,8 +25,15 @@ const createAgentes = (agente1) => {
     nameAgente.classList.add('nameAgente')
     nameAgente.textContent = agente1.displayName
 
+    const classAgente = document.createElement('p')
+    classAgente.classList.add('classAgente')
+    classAgente.textContent = agente1.role
+
+
+    console.log(classAgente);
+
     containerCard.append(cardAgente)
-    cardAgente.append(imgAgente, nameAgente)
+    cardAgente.append(imgAgente, nameAgente, classAgente)
 
     return containerCard
 }

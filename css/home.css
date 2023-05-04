@@ -1,7 +1,7 @@
-/* @font-face {
+@font-face {
   font-family: "Valorant";
   src: url("Valorant.otf");
-} */
+}
 
 @font-face {
   font-family: "DIN Next LT Pro Bold";
@@ -46,13 +46,13 @@ body {
 
 .container-agentes {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2vh;
 }
 
 .container-armas {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 4vh;
   place-items: center;
 }
@@ -160,6 +160,7 @@ button:hover .hover-effect {
   padding: 1.9rem 3rem;
   background-color: transparent;
   z-index: 1;
+  color: #df6666;
 }
 
 .label-text:after {

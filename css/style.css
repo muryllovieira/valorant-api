@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +7,6 @@
 
 a {
     text-decoration: none;
-    color: #000;
 }
 
 ul,
@@ -24,9 +22,9 @@ body {
 }
 
 main {
-    background-image: url(../img/agent-background-generic.JPG);
+    background-image: url(../video/agent-background-generic.gif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
 
 .valorant-icon img {
@@ -40,10 +38,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
-    font-family: Stencil Std, fantasy;
+    font-size: 5rem;
+    font-family: 'Vina Sans', cursive;
     gap: 150px;
     text-transform: capitalize;
+}
+
+.menu-container a {
+    text-decoration: none;
+    color: #000;
 }
 
 .fundo img {
@@ -60,6 +63,3 @@ main {
     color: #fff;
 }
 
-.container-home {
-    background-color: blue;
-}

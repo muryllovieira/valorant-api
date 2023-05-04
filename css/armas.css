@@ -7,16 +7,16 @@
 }
 
 .imgArma {
-    width: 550px;
+    width: 100%;
     height: 200px;
 }
 
 .cardArma {
-    width: 550px;
+    width: 700px;
     height: 250px;
     align-items: center;
     justify-content: center;
-    background-color: rgb(155, 50, 50);
+    /* background-color: rgb(155, 50, 50); */
     box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
@@ -32,7 +32,7 @@
 
 .nameArma {
     text-align: center;
-    width: 90%;
+    width: 100%;
     font-size: 2rem;
     font-weight: bold;
     color: #fff;
