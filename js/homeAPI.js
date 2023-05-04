@@ -7,3 +7,11 @@ export const showAgentes = async () => {
 
     return agente.data
 }
+
+export const showArmas = async () => {
+    const url = `https://valorant-api.com/v1/weapons`
+    const response = await fetch(url)
+    const agente = await response.json()
+
+    return agente.data
+}

@@ -1,15 +1,24 @@
 'use strict'
 
-import {loadContainer} from './agentes.js'
+import { loadContainerAgentes } from './agentes.js'
+import { loadContainerArmas } from './armas.js'
 
 const routes = {
     '/' : '/pages/home.html',
+    '/home' : {
+        html: '/pages/home.html'
+    },
     '/agentes' : {
         html: '/pages/agentes.html',
-        js: loadContainer
+        js: loadContainerAgentes
     },
-    '/armas' : '/pages/armas.html',
-    '/mapas' : '/pages/mapas.html',
+    '/armas' : {
+        html: '/pages/armas.html',
+        js: loadContainerArmas
+    },
+    '/mapas' : {
+        html: '/pages/mapas.html',
+    },
 }
 const route = async () => {
 

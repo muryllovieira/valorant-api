@@ -1,18 +1,18 @@
 .containerCard {
-    display: flex;
+    margin-left: 4%;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 42px;
+    align-items: center;
+    align-content: center;
     padding-top: 5%;
 }
 
-.imgAgente {
-    width: 200px;
+.imgArma {
+    width: 550px;
     height: 200px;
 }
 
-.cardAgente {
-    width: 200px;
+.cardArma {
+    width: 550px;
     height: 250px;
     align-items: center;
     justify-content: center;
@@ -21,27 +21,26 @@
     cursor: pointer;
 }
 
-.cardAgente:hover {
+.cardArma:hover {
     transform: scale(1.1);
 }
 
 
-.imgAgente {
+.imgArma {
     padding-bottom: 16px;
 }
 
-.nameAgente {
+.nameArma {
     text-align: center;
     width: 90%;
     font-size: 2rem;
-    font-weight: 500;
-    color: var(--text-color);
     font-weight: bold;
+    color: #fff;
     text-transform: uppercase;
     text-shadow: 0px 4px 4px rgba(34, 34, 34, 0.25);
-}
+}   
 
-.agentes-header{
+.armas-header{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,8 +49,3 @@
     font-weight: 500;
     font-size: 1.5rem;
 }
-
-/* #container{
-    display: grid;
-    grid-template-rows: repeat(5,1fr);
-} */

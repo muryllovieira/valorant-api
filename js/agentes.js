@@ -29,9 +29,9 @@ const createAgentes = (agente1) => {
     return containerCard
 }
 
-export const loadContainer = () => {
+export const loadContainerAgentes = () => {
 
-    const container = document.getElementById('container')
+    const container = document.getElementById('container-agentes')
     const containerCardAPI = agente.map(createAgentes)
     
     container.replaceChildren(...containerCardAPI)
