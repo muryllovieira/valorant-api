@@ -1,0 +1,39 @@
+.containerCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 42px;
+}
+
+.imgAgente {
+    width: 200px;
+    height: 200px;
+}
+
+.cardAgente {
+    width: 200px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: chocolate;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.cardAgente:hover {
+    transform: scale(1.1);
+}
+
+
+.imgAgente {
+    padding-bottom: 16px;
+}
+
+.nameAgente {
+    text-align: center;
+    width: 90%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+    text-shadow: 0px 4px 4px rgba(34, 34, 34, 0.25);
+}
