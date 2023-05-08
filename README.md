@@ -21,7 +21,7 @@
 
 # [<img src="https://user-images.githubusercontent.com/88831304/230944766-5320d389-e271-4cdb-ae8c-66b586e4fc5f.png" width="30">](https://the-world-of-harry-potter.vercel.app/) [LINK DO PROJETO](https://valorant-api-senai.netlify.app/)
 
-
+# [<img src="https://user-images.githubusercontent.com/88831304/230944766-5320d389-e271-4cdb-ae8c-66b586e4fc5f.png" width="30">](https://the-world-of-harry-potter.vercel.app/) [LINK DO FIGMA](https://www.figma.com/file/9yKrLkXVg6mEfhrDnGNacZ/Untitled?type=design&node-id=5-26&t=eoh7V7ASbD6rCO7m-0)
 
 
 <br>
