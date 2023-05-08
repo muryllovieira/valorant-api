@@ -49,3 +49,20 @@
     font-weight: 500;
     font-size: 1.5rem;
 }
+
+@media (max-width: 640px) {
+    .cardArma {
+        width: 300px;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+    .container-armas {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 4vh;
+        place-items: center;
+      }
+}

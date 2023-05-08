@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: url(../img/alvo.png), auto;
 }
 
 a {
@@ -40,13 +41,19 @@ main {
     align-items: center;
     font-size: 5rem;
     font-family: 'Vina Sans', cursive;
-    gap: 150px;
+    gap: 10%;
     text-transform: capitalize;
 }
 
 .menu-container a {
     text-decoration: none;
     color: #000;
+}
+
+.menu-container a:hover{
+    border-bottom: 4px solid transparent;
+    transition: border-color 5s;
+    cursor: pointer;
 }
 
 .fundo img {
@@ -63,3 +70,18 @@ main {
     color: #fff;
 }
 
+@media (max-width: 640px) {
+    .menu-container {
+        height: 100%;
+        background-color: rgb(155, 50, 50);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 2rem;
+        font-family: 'Vina Sans', cursive;
+        text-transform: capitalize;
+    }
+    .valorant-icon{
+        display: none;
+    }
+}
