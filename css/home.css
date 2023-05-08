@@ -57,6 +57,15 @@ body {
   place-items: center;
 }
 
+.container-mapas {
+  display: flex;
+  /* padding-left: 10%; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;   
+}
+
 .box {
   width: 50%;
 }

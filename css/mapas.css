@@ -1,26 +1,21 @@
-.container-mapas {
+.maps-header{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    height: 100%;   
-}
-
-.carrossel {
-    box-shadow: 2px 2px 4px black;
-    overflow: hidden;
-    height: 500px;
-    width: 850px;
-}
-
-.container-img {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
+    gap: 20px;
 }
 
 .container-img img {
-    object-fit: cover;
-    width: 850px;
-    height: 500px;
+    width: 45%;
 }
