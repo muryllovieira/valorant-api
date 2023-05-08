@@ -74,7 +74,6 @@ Site desenvolvido para ser utilizado com uma **API pública** trazendo assim ens
 # Autor
 Muryllo Vieira|
 :-------:|
-
 [<img src="https://user-images.githubusercontent.com/110054149/236907965-946dcf95-35e9-4524-bc7e-a735d23129d0.png" width=115>](https://github.com/muryllovieira)
 
 
